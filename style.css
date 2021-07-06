@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+}
+#header{
+    width: 100%;
+    background: #00B8EE;
+    overflow: auto;
+}
+.navbar{
+    width:95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+.logo{
+    width: 90px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+     padding: 30px 20px;
+     border-radius: 10%;
+}
+.navbar ul li a:hover{
+  background: #f4f4f4;
+  color:#00B8EE;
+}
+#order{
+  display: flex;
+  background: #f4f4f4;
+  background-repeat: no-repeat;
+}
+.food{
+  width: 50%;
+  padding-left: 3%;
+  padding-top: 20px;
+  padding-right: 3%;
+  margin: 3% 5%;
+}
+.food h1{
+  font-size: 50px;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  text-transform: capitalize;
+}
+.food span{
+  color: #00B8EE;
+ }
+.food p{
+  line-height: 30px;
+  padding-bottom: 5%;
+}
+
+.food img{
+  width: 110%;
+  margin-top:-50px; 
+}
+.button{
+text-decoration: none;
+background: #fff;
+padding: 15px 20px;
+color: #333;
+letter-spacing: 1.5px;
+border-radius: 25px;  
+}
+.button:hover{
+  background-image: linear-gradient( #00B8EE, skyblue);
+  color: #fff;
+}
+ 
