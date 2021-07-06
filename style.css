@@ -76,4 +76,63 @@ border-radius: 25px;
   background-image: linear-gradient( #00B8EE, skyblue);
   color: #fff;
 }
- 
+#about{
+  display: flex;
+  background-image: url('./image/shapes/Frame\ 57.jpg');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  height: 90vh;
+  color: #2C313C;
+}
+.food .img{
+  width: 70%;
+  margin-top: 3%;
+  height: 78vh;
+}
+.heading{
+  margin-top: 10%;
+}
+.btn{
+  display: inline-block;
+  margin-top: 10%;
+}
+#recipies{
+  text-align: center; 
+  margin-top: 90px;
+  margin-bottom: 60px;
+}
+#recipies h1{
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+#recipies .para{
+  padding: 0 400px;
+}
+#recipies h2{
+   font-size: 20px;
+}
+.foods-rl{
+   display: flex;
+   margin-top: 70px;
+   justify-content: center;
+   text-align: left;
+}
+.foods h2{
+   font-size: 35px;
+   padding: 10px 0;
+
+}
+.foods{
+  width: 20%;
+  height: 300px;
+  margin-left: 5%;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px gray;
+}
+.img-logo{
+  width: 270px;
+  height: 150px;
+  border-radius: 10px;
+}
